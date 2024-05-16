@@ -1,0 +1,2120 @@
+VERSION = 1,
+
+option AzaTelepads.Pink_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_A_x,
+}
+
+option AzaTelepads.Pink_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_A_y,
+}
+
+option AzaTelepads.Pink_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_A_z,
+}
+
+option AzaTelepads.Red_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_A_x,
+}
+
+option AzaTelepads.Red_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_A_y,
+}
+
+option AzaTelepads.Red_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_A_z,
+}
+
+option AzaTelepads.Orange_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_A_x,
+}
+
+option AzaTelepads.Orange_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_A_y,
+}
+
+option AzaTelepads.Orange_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_A_z,
+}
+
+option AzaTelepads.Yellow_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_A_x,
+}
+
+option AzaTelepads.Yellow_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_A_y,
+}
+
+option AzaTelepads.Yellow_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_A_z,
+}
+
+option AzaTelepads.Green_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_A_x,
+}
+
+option AzaTelepads.Green_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_A_y,
+}
+
+option AzaTelepads.Green_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_A_z,
+}
+
+option AzaTelepads.Teal_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_A_x,
+}
+
+option AzaTelepads.Teal_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_A_y,
+}
+
+option AzaTelepads.Teal_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_A_z,
+}
+
+option AzaTelepads.Cyan_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_A_x,
+}
+
+option AzaTelepads.Cyan_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_A_y,
+}
+
+option AzaTelepads.Cyan_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_A_z,
+}
+
+option AzaTelepads.Blue_A_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_A_x,
+}
+
+option AzaTelepads.Blue_A_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_A_y,
+}
+
+option AzaTelepads.Blue_A_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_A_z,
+}
+
+
+option AzaTelepads.Pink_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_B_x,
+}
+
+option AzaTelepads.Pink_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_B_y,
+}
+
+option AzaTelepads.Pink_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_B_z,
+}
+
+option AzaTelepads.Red_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_B_x,
+}
+
+option AzaTelepads.Red_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_B_y,
+}
+
+option AzaTelepads.Red_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_B_z,
+}
+
+option AzaTelepads.Orange_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_B_x,
+}
+
+option AzaTelepads.Orange_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_B_y,
+}
+
+option AzaTelepads.Orange_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_B_z,
+}
+
+option AzaTelepads.Yellow_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_B_x,
+}
+
+option AzaTelepads.Yellow_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_B_y,
+}
+
+option AzaTelepads.Yellow_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_B_z,
+}
+
+option AzaTelepads.Green_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_B_x,
+}
+
+option AzaTelepads.Green_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_B_y,
+}
+
+option AzaTelepads.Green_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_B_z,
+}
+
+option AzaTelepads.Teal_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_B_x,
+}
+
+option AzaTelepads.Teal_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_B_y,
+}
+
+option AzaTelepads.Teal_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_B_z,
+}
+
+option AzaTelepads.Cyan_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_B_x,
+}
+
+option AzaTelepads.Cyan_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_B_y,
+}
+
+option AzaTelepads.Cyan_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_B_z,
+}
+
+option AzaTelepads.Blue_B_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_B_x,
+}
+
+option AzaTelepads.Blue_B_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_B_y,
+}
+
+option AzaTelepads.Blue_B_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_B_z,
+}
+
+
+option AzaTelepads.Pink_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_C_x,
+}
+
+option AzaTelepads.Pink_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_C_y,
+}
+
+option AzaTelepads.Pink_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_C_z,
+}
+
+option AzaTelepads.Red_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_C_x,
+}
+
+option AzaTelepads.Red_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_C_y,
+}
+
+option AzaTelepads.Red_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_C_z,
+}
+
+option AzaTelepads.Orange_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_C_x,
+}
+
+option AzaTelepads.Orange_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_C_y,
+}
+
+option AzaTelepads.Orange_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_C_z,
+}
+
+option AzaTelepads.Yellow_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_C_x,
+}
+
+option AzaTelepads.Yellow_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_C_y,
+}
+
+option AzaTelepads.Yellow_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_C_z,
+}
+
+option AzaTelepads.Green_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_C_x,
+}
+
+option AzaTelepads.Green_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_C_y,
+}
+
+option AzaTelepads.Green_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_C_z,
+}
+
+option AzaTelepads.Teal_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_C_x,
+}
+
+option AzaTelepads.Teal_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_C_y,
+}
+
+option AzaTelepads.Teal_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_C_z,
+}
+
+option AzaTelepads.Cyan_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_C_x,
+}
+
+option AzaTelepads.Cyan_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_C_y,
+}
+
+option AzaTelepads.Cyan_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_C_z,
+}
+
+option AzaTelepads.Blue_C_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_C_x,
+}
+
+option AzaTelepads.Blue_C_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_C_y,
+}
+
+option AzaTelepads.Blue_C_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_C_z,
+}
+
+
+option AzaTelepads.Pink_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_D_x,
+}
+
+option AzaTelepads.Pink_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_D_y,
+}
+
+option AzaTelepads.Pink_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_D_z,
+}
+
+option AzaTelepads.Red_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_D_x,
+}
+
+option AzaTelepads.Red_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_D_y,
+}
+
+option AzaTelepads.Red_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_D_z,
+}
+
+option AzaTelepads.Orange_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_D_x,
+}
+
+option AzaTelepads.Orange_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_D_y,
+}
+
+option AzaTelepads.Orange_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_D_z,
+}
+
+option AzaTelepads.Yellow_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_D_x,
+}
+
+option AzaTelepads.Yellow_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_D_y,
+}
+
+option AzaTelepads.Yellow_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_D_z,
+}
+
+option AzaTelepads.Green_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_D_x,
+}
+
+option AzaTelepads.Green_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_D_y,
+}
+
+option AzaTelepads.Green_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_D_z,
+}
+
+option AzaTelepads.Teal_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_D_x,
+}
+
+option AzaTelepads.Teal_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_D_y,
+}
+
+option AzaTelepads.Teal_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_D_z,
+}
+
+option AzaTelepads.Cyan_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_D_x,
+}
+
+option AzaTelepads.Cyan_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_D_y,
+}
+
+option AzaTelepads.Cyan_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_D_z,
+}
+
+option AzaTelepads.Blue_D_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_D_x,
+}
+
+option AzaTelepads.Blue_D_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_D_y,
+}
+
+option AzaTelepads.Blue_D_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_D_z,
+}
+
+
+option AzaTelepads.Pink_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_E_x,
+}
+
+option AzaTelepads.Pink_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_E_y,
+}
+
+option AzaTelepads.Pink_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_E_z,
+}
+
+option AzaTelepads.Red_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_E_x,
+}
+
+option AzaTelepads.Red_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_E_y,
+}
+
+option AzaTelepads.Red_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_E_z,
+}
+
+option AzaTelepads.Orange_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_E_x,
+}
+
+option AzaTelepads.Orange_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_E_y,
+}
+
+option AzaTelepads.Orange_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_E_z,
+}
+
+option AzaTelepads.Yellow_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_E_x,
+}
+
+option AzaTelepads.Yellow_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_E_y,
+}
+
+option AzaTelepads.Yellow_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_E_z,
+}
+
+option AzaTelepads.Green_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_E_x,
+}
+
+option AzaTelepads.Green_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_E_y,
+}
+
+option AzaTelepads.Green_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_E_z,
+}
+
+option AzaTelepads.Teal_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_E_x,
+}
+
+option AzaTelepads.Teal_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_E_y,
+}
+
+option AzaTelepads.Teal_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_E_z,
+}
+
+option AzaTelepads.Cyan_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_E_x,
+}
+
+option AzaTelepads.Cyan_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_E_y,
+}
+
+option AzaTelepads.Cyan_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_E_z,
+}
+
+option AzaTelepads.Blue_E_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_E_x,
+}
+
+option AzaTelepads.Blue_E_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_E_y,
+}
+
+option AzaTelepads.Blue_E_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_E_z,
+}
+
+
+option AzaTelepads.Pink_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_F_x,
+}
+
+option AzaTelepads.Pink_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_F_y,
+}
+
+option AzaTelepads.Pink_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_F_z,
+}
+
+option AzaTelepads.Red_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_F_x,
+}
+
+option AzaTelepads.Red_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_F_y,
+}
+
+option AzaTelepads.Red_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_F_z,
+}
+
+option AzaTelepads.Orange_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_F_x,
+}
+
+option AzaTelepads.Orange_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_F_y,
+}
+
+option AzaTelepads.Orange_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_F_z,
+}
+
+option AzaTelepads.Yellow_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_F_x,
+}
+
+option AzaTelepads.Yellow_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_F_y,
+}
+
+option AzaTelepads.Yellow_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_F_z,
+}
+
+option AzaTelepads.Green_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_F_x,
+}
+
+option AzaTelepads.Green_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_F_y,
+}
+
+option AzaTelepads.Green_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_F_z,
+}
+
+option AzaTelepads.Teal_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_F_x,
+}
+
+option AzaTelepads.Teal_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_F_y,
+}
+
+option AzaTelepads.Teal_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_F_z,
+}
+
+option AzaTelepads.Cyan_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_F_x,
+}
+
+option AzaTelepads.Cyan_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_F_y,
+}
+
+option AzaTelepads.Cyan_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_F_z,
+}
+
+option AzaTelepads.Blue_F_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_F_x,
+}
+
+option AzaTelepads.Blue_F_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_F_y,
+}
+
+option AzaTelepads.Blue_F_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_F_z,
+}
+
+
+option AzaTelepads.Pink_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_G_x,
+}
+
+option AzaTelepads.Pink_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_G_y,
+}
+
+option AzaTelepads.Pink_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_G_z,
+}
+
+option AzaTelepads.Red_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_G_x,
+}
+
+option AzaTelepads.Red_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_G_y,
+}
+
+option AzaTelepads.Red_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_G_z,
+}
+
+option AzaTelepads.Orange_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_G_x,
+}
+
+option AzaTelepads.Orange_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_G_y,
+}
+
+option AzaTelepads.Orange_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_G_z,
+}
+
+option AzaTelepads.Yellow_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_G_x,
+}
+
+option AzaTelepads.Yellow_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_G_y,
+}
+
+option AzaTelepads.Yellow_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_G_z,
+}
+
+option AzaTelepads.Green_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_G_x,
+}
+
+option AzaTelepads.Green_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_G_y,
+}
+
+option AzaTelepads.Green_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_G_z,
+}
+
+option AzaTelepads.Teal_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_G_x,
+}
+
+option AzaTelepads.Teal_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_G_y,
+}
+
+option AzaTelepads.Teal_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_G_z,
+}
+
+option AzaTelepads.Cyan_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_G_x,
+}
+
+option AzaTelepads.Cyan_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_G_y,
+}
+
+option AzaTelepads.Cyan_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_G_z,
+}
+
+option AzaTelepads.Blue_G_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_G_x,
+}
+
+option AzaTelepads.Blue_G_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_G_y,
+}
+
+option AzaTelepads.Blue_G_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_G_z,
+}
+
+
+option AzaTelepads.Pink_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_H_x,
+}
+
+option AzaTelepads.Pink_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_H_y,
+}
+
+option AzaTelepads.Pink_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Pink_H_z,
+}
+
+option AzaTelepads.Red_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_H_x,
+}
+
+option AzaTelepads.Red_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_H_y,
+}
+
+option AzaTelepads.Red_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Red_H_z,
+}
+
+option AzaTelepads.Orange_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_H_x,
+}
+
+option AzaTelepads.Orange_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_H_y,
+}
+
+option AzaTelepads.Orange_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Orange_H_z,
+}
+
+option AzaTelepads.Yellow_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_H_x,
+}
+
+option AzaTelepads.Yellow_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_H_y,
+}
+
+option AzaTelepads.Yellow_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Yellow_H_z,
+}
+
+option AzaTelepads.Green_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_H_x,
+}
+
+option AzaTelepads.Green_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_H_y,
+}
+
+option AzaTelepads.Green_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Green_H_z,
+}
+
+option AzaTelepads.Teal_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_H_x,
+}
+
+option AzaTelepads.Teal_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_H_y,
+}
+
+option AzaTelepads.Teal_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Teal_H_z,
+}
+
+option AzaTelepads.Cyan_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_H_x,
+}
+
+option AzaTelepads.Cyan_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_H_y,
+}
+
+option AzaTelepads.Cyan_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Cyan_H_z,
+}
+
+option AzaTelepads.Blue_H_x
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_H_x,
+}
+
+option AzaTelepads.Blue_H_y
+{
+	type = integer,
+	min = 0,
+	max = 100000,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_H_y,
+}
+
+option AzaTelepads.Blue_H_z
+{
+	type = integer,
+	min = 0,
+	max = 8,
+	default = 0,
+
+	page = AzaTelepads,
+	translation = AzaTelepads_Blue_H_z,
+}

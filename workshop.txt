@@ -1,0 +1,6 @@
+version=1
+id=3229091989
+title=Aza's Telepads Pyno
+description=Aza's Telepad's PynoTTV
+tags=Map;Multiplayer
+visibility=public
