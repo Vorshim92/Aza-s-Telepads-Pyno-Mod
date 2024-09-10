@@ -1,7 +1,11 @@
 Sandbox_EN = {
-	Sandbox_VorshimTp = "Aza Telepads",
-	Sandbox_VorshimTp_cordinates1 = "Set coordinates for Teleport number 1",
-	Sandbox_VorshimTp_cordinates1_tooltip = "Set coordinates for Teleport number 1",
-	Sandbox_VorshimTp_cordinates2 = "Set coordinates for Teleport number 2",
-	Sandbox_VorshimTp_cordinates2_tooltip = "Set coordinates for Teleport number 2",
+	Sandbox_VorshimTp = "VorshimTP",
+	Sandbox_VorshimTp_cordinates1_A = "Set coordinates for Teleport number 1_A",
+	Sandbox_VorshimTp_cordinates1_A_tooltip = "Set coordinates for Teleport number 1_A",
+	Sandbox_VorshimTp_cordinates1_B = "Set coordinates for Teleport number 1_B",
+	Sandbox_VorshimTp_cordinates1_B_tooltip = "Set coordinates for Teleport number 1_B",
+	Sandbox_VorshimTp_cordinates2_A = "Set coordinates for Teleport number 2_A",
+	Sandbox_VorshimTp_cordinates2_A_tooltip = "Set coordinates for Teleport number 2_A",
+	Sandbox_VorshimTp_cordinates2_B = "Set coordinates for Teleport number 2_B",
+	Sandbox_VorshimTp_cordinates2_B_tooltip = "Set coordinates for Teleport number 2_B",
 }

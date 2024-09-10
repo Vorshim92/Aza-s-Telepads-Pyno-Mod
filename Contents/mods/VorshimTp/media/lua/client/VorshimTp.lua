@@ -8,39 +8,50 @@ local function addPlayersToTeleport(player,x,y,z,delay)
 end
 
 local function teleportPlayer(player, cords)
-
-      player:setX(tonumber(cords[1]));
-      player:setY(tonumber(cords[2]));
-      player:setZ(tonumber(cords[3]));
-      player:setLx(tonumber(cords[1]));
-      player:setLy(tonumber(cords[2]));
-      player:setLz(tonumber(cords[3]));
-end
-
--- Events.OnTick.Add(teleportPlayer)
-
-
-function VorshimTp.effect1(player)
 	-- player:getEmitter():playSound("soundeffect"); -- play a sound effect?
-	addPlayersToTeleport(player, SandboxVars.VorshimTp_1 + 0.5, SandboxVars.VorshimTp_1 + 0.5, SandboxVars.VorshimTp_1 + 0, 100) -- x, y, z, plus their offsets!
+
+      player:setX(cords[1]+1);
+      player:setY(cords[2]+1);
+      player:setZ(cords[3]);
+      player:setLx(cords[1]+1);
+      player:setLy(cords[2]+1);
+      player:setLz(cords[3]);
 end
 
-function VorshimTp.effect2(player)
-	-- player:getEmitter():playSound("soundeffect"); -- play a sound effect?
-	addPlayersToTeleport(player, SandboxVars.VorshimTp_2 + 0.5, SandboxVars.VorshimTp_2 + 0.5, SandboxVars.VorshimTp_2 + 0, 100) -- x, y, z, plus their offsets!
-end
 
 
 function VorshimTp.trigger(player)
     if not player then return end
-    local cord = {player:getX(), player:getY(), player:getZ()}
-	if not cord then return end
-    
-		if cord then
-      -- 
-			print("VorshimTp: " .. cord[1] .. " " .. cord[2] .. " " .. cord[3])
-			
+
+    -- Ottieni le coordinate del giocatore
+    local cords = {
+        math.floor(player:getX()), 
+        math.floor(player:getY()), 
+        math.floor(player:getZ())
+    }
+    if cords == nil then return end
+    -- print("VorshimTp: " .. cords[1] .. " " .. cords[2] .. " " .. cords[3])
+
+    -- Ottieni le coordinate target dalla variabile SandboxVars
+    local targetCoordsStr = SandboxVars.VorshimTp_1
+    local targetCoords = luautils.split(targetCoordsStr, ",")
+
+    -- Assicurati che targetCoords abbia 3 valori e convertili in numeri
+    if #targetCoords == 3 then
+        local targetX = tonumber(targetCoords[1])
+        local targetY = tonumber(targetCoords[2])
+        local targetZ = tonumber(targetCoords[3])
+
+        -- Comparazione delle coordinate una per una
+        if cords[1] == targetX and cords[2] == targetY and cords[3] == targetZ then
+            print("Coordinates match, teleporting player!")
+            teleportPlayer(player, cords)
+        else
+            print("Coordinates do not match.")
         end
+    else
+        print("Invalid coordinate format in SandboxVars.VorshimTp_1")
+    end
 end
 
 -- Events.OnPlayerMove.Remove(VorshimTp.trigger) 
