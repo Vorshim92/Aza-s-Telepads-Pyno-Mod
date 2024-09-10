@@ -9,6 +9,15 @@ local function teleportPlayer(player, cords)
     player:setLz(cords[3])
 end
 
+ function VorshimTp.Panel(player, args)
+    local modal = ISModalDialog:new(getCore():getScreenWidth() / 2 - 175,getCore():getScreenHeight() / 2 - 75, 350, 150, "Vuoi essere teletrasportato?", true, nil, VorshimTp.onAnswer);
+    modal:initialise()
+    modal:addToUIManager()
+    modal.player = player
+    modal.args = args
+    modal.moveWithMouse = true;
+end
+
 function VorshimTp.trigger(player)
     if not player then return end
 
@@ -47,9 +56,10 @@ function VorshimTp.trigger(player)
                     local targetBY = tonumber(targetCoordsB[2])
                     local targetBZ = tonumber(targetCoordsB[3])
                     local args = {x = targetBX, y = targetBY, z = targetBZ}
+
+                    VorshimTp.Panel(player, args)
                     -- teleportPlayer(player, {targetBX, targetBY, targetBZ})
-                    sendClientCommand(player, 'VorshimTp', 'teleportPlayer', args)
-                    Events.OnPlayerMove.Add(VorshimTp.trigger)
+                    -- Events.OnPlayerMove.Add(VorshimTp.trigger)
                     return -- Uscita dopo il teletrasporto
                 end
             else
@@ -57,6 +67,19 @@ function VorshimTp.trigger(player)
             end
         end
     end
+end
+
+function VorshimTp.onAnswer(button)
+    if button.internal == "YES" then
+
+    sendClientCommand(button.parent.player, 'VorshimTp', 'teleportPlayer', button.parent.args)
+    end
+
+
+    -- Ripristina l'evento
+
+    Events.OnPlayerMove.Add(VorshimTp.trigger)
+
 end
 
 -- Aggiungi l'evento
