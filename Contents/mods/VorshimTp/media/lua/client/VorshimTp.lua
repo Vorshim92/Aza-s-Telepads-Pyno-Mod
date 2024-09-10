@@ -1,24 +1,13 @@
 VorshimTp = {}
 
-VorshimTp_playersToTeleport = {} --each entry: {isoPlayer, x, y, z, timeInMs}
-
--- Don't Fuck with this except changing the VorshimTp thing with find replace function.
-local function addPlayersToTeleport(player,x,y,z,delay)
-    table.insert(VorshimTp_playersToTeleport,{player, x, y, z, getTimestampMs()+(delay or 10)})
-end
-
 local function teleportPlayer(player, cords)
-	-- player:getEmitter():playSound("soundeffect"); -- play a sound effect?
-
-      player:setX(cords[1]+1);
-      player:setY(cords[2]+1);
-      player:setZ(cords[3]);
-      player:setLx(cords[1]+1);
-      player:setLy(cords[2]+1);
-      player:setLz(cords[3]);
+    player:setX(cords[1])
+    player:setY(cords[2])
+    player:setZ(cords[3])
+    player:setLx(cords[1])
+    player:setLy(cords[2])
+    player:setLz(cords[3])
 end
-
-
 
 function VorshimTp.trigger(player)
     if not player then return end
@@ -30,29 +19,41 @@ function VorshimTp.trigger(player)
         math.floor(player:getZ())
     }
     if cords == nil then return end
-    -- print("VorshimTp: " .. cords[1] .. " " .. cords[2] .. " " .. cords[3])
 
-    -- Ottieni le coordinate target dalla variabile SandboxVars
-    local targetCoordsStr = SandboxVars.VorshimTp_1
-    local targetCoords = luautils.split(targetCoordsStr, ",")
+    -- Cicla attraverso i diversi valori di A1, A2, ecc.
+    for i = 1, 2 do  -- Cambia 2 in base al numero di coppie A/B che hai (es. se hai A1, A2,... A10, usa 10)
+        local targetA = SandboxVars.VorshimTp["A" .. i]
+        local targetB = SandboxVars.VorshimTp["B" .. i]
 
-    -- Assicurati che targetCoords abbia 3 valori e convertili in numeri
-    if #targetCoords == 3 then
-        local targetX = tonumber(targetCoords[1])
-        local targetY = tonumber(targetCoords[2])
-        local targetZ = tonumber(targetCoords[3])
+        -- Se le variabili A e B sono valide
+        if targetA and targetB then
+            local targetCoordsA = luautils.split(targetA, ",")
+            local targetCoordsB = luautils.split(targetB, ",")
 
-        -- Comparazione delle coordinate una per una
-        if cords[1] == targetX and cords[2] == targetY and cords[3] == targetZ then
-            print("Coordinates match, teleporting player!")
-            teleportPlayer(player, cords)
-        else
-            print("Coordinates do not match.")
+            -- Assicurati che targetCoordsA e targetCoordsB abbiano 3 valori e convertili in numeri
+            if #targetCoordsA == 3 and #targetCoordsB == 3 then
+                local targetAX = tonumber(targetCoordsA[1])
+                local targetAY = tonumber(targetCoordsA[2])
+                local targetAZ = tonumber(targetCoordsA[3])
+
+                -- Comparazione delle coordinate del giocatore con quelle di A
+                if cords[1] == targetAX and cords[2] == targetAY and cords[3] == targetAZ then
+                    print("Coordinates match for A" .. i .. ", teleporting player to B" .. i)
+                    
+                    -- Teletrasporta il giocatore alle coordinate di B
+                    local targetBX = tonumber(targetCoordsB[1])
+                    local targetBY = tonumber(targetCoordsB[2])
+                    local targetBZ = tonumber(targetCoordsB[3])
+
+                    teleportPlayer(player, {targetBX, targetBY, targetBZ})
+                    return -- Uscita dopo il teletrasporto
+                end
+            else
+                print("Invalid coordinate format in VorshimTp.A" .. i .. " or VorshimTp.B" .. i)
+            end
         end
-    else
-        print("Invalid coordinate format in SandboxVars.VorshimTp_1")
     end
 end
 
--- Events.OnPlayerMove.Remove(VorshimTp.trigger) 
+-- Aggiungi l'evento
 Events.OnPlayerMove.Add(VorshimTp.trigger)
