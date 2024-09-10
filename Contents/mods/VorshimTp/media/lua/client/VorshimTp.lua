@@ -38,6 +38,8 @@ function VorshimTp.trigger(player)
 
                 -- Comparazione delle coordinate del giocatore con quelle di A
                 if cords[1] == targetAX and cords[2] == targetAY and cords[3] == targetAZ then
+                    Events.OnPlayerMove.Remove(VorshimTp.trigger)
+
                     print("Coordinates match for A" .. i .. ", teleporting player to B" .. i)
                     
                     -- Teletrasporta il giocatore alle coordinate di B
@@ -47,6 +49,7 @@ function VorshimTp.trigger(player)
                     local args = {x = targetBX, y = targetBY, z = targetBZ}
                     -- teleportPlayer(player, {targetBX, targetBY, targetBZ})
                     sendClientCommand(player, 'VorshimTp', 'teleportPlayer', args)
+                    Events.OnPlayerMove.Add(VorshimTp.trigger)
                     return -- Uscita dopo il teletrasporto
                 end
             else
