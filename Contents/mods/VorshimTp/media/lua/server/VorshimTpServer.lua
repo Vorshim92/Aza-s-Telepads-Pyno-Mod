@@ -5,7 +5,7 @@ Commands.VorshimTp = {}
 function Commands.VorshimTp.teleportPlayer(player, args)
     local players = getOnlinePlayers()
     for i = 1, players:size() do
-        local p = players.get(i - 1)
+        local p = players:get(i - 1)
             if p == player then
     p:setX(args.x)
     p:setY(args.y)
