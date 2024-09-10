@@ -1,0 +1,7 @@
+Sandbox_EN = {
+	Sandbox_VorshimTp = "Aza Telepads",
+	Sandbox_VorshimTp_cordinates1 = "Set coordinates for Teleport number 1",
+	Sandbox_VorshimTp_cordinates1_tooltip = "Set coordinates for Teleport number 1",
+	Sandbox_VorshimTp_cordinates2 = "Set coordinates for Teleport number 2",
+	Sandbox_VorshimTp_cordinates2_tooltip = "Set coordinates for Teleport number 2",
+}

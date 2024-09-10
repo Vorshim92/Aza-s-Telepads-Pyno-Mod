@@ -1,0 +1,20 @@
+VERSION = 1,
+
+option VorshimTp_1
+{
+	type = string,
+	default = "x,y,z",
+
+	page = VorshimTp,
+	translation = VorshimTp_cordinates1,
+}
+
+option VorshimTp_2
+{
+	type = string,
+	default = "x,y,z",
+
+	page = VorshimTp,
+	translation = VorshimTp_cordinates2,
+}
+
