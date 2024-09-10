@@ -44,8 +44,9 @@ function VorshimTp.trigger(player)
                     local targetBX = tonumber(targetCoordsB[1])
                     local targetBY = tonumber(targetCoordsB[2])
                     local targetBZ = tonumber(targetCoordsB[3])
-
-                    teleportPlayer(player, {targetBX, targetBY, targetBZ})
+                    local args = {x = targetBX, y = targetBY, z = targetBZ}
+                    -- teleportPlayer(player, {targetBX, targetBY, targetBZ})
+                    sendClientCommand(player, 'VorshimTp', 'teleportPlayer', args)
                     return -- Uscita dopo il teletrasporto
                 end
             else
