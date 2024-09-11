@@ -1,3 +1,5 @@
+
+
 VorshimTp = {}
 
 local function teleportPlayer(player, cords)
@@ -16,6 +18,7 @@ end
     modal.player = player
     modal.args = args
     modal.moveWithMouse = true;
+
 end
 
 function VorshimTp.trigger(player)
@@ -56,7 +59,7 @@ function VorshimTp.trigger(player)
                     local targetBY = tonumber(targetCoordsB[2])
                     local targetBZ = tonumber(targetCoordsB[3])
                     local args = {x = targetBX, y = targetBY, z = targetBZ}
-
+                    -- sendClientCommand(player, 'VorshimTp', 'teleportPlayer', args)
                     VorshimTp.Panel(player, args)
                     -- teleportPlayer(player, {targetBX, targetBY, targetBZ})
                     -- Events.OnPlayerMove.Add(VorshimTp.trigger)
