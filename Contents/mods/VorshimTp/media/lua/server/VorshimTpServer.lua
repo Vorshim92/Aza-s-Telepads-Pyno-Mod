@@ -5,12 +5,13 @@ Commands.VorshimTp = {}
 function Commands.VorshimTp.teleportPlayer(player, args)
     if player and args.x and args.y and args.z then
         print('inside teleportPlayer: ' .. player:getUsername() .. ' ' .. args.x .. ' ' .. args.y .. ' ' .. args.z)
-        player:setX(args.x)
-        player:setY(args.y)
-        player:setZ(args.z)
-        player:setLx(args.x)
-        player:setLy(args.y)
-        player:setLz(args.z)
+        -- player:setX(args.x)
+        -- player:setY(args.y)
+        -- player:setZ(args.z)
+        -- player:setLx(args.x)
+        -- player:setLy(args.y)
+        -- player:setLz(args.z)
+        SendCommandToServer("/tpto \"" .. player:getUsername() .. "\" " .. args.x .. " " .. args.y .. " " .. args.z)
     end
 end
 
