@@ -1,5 +1,9 @@
 
 
+-- require "ISUI/ISButton"
+-- require "ISUI/ISPanel"
+require "ISUI/ISModalDialog"
+
 VorshimTp = {}
 
 local function teleportPlayer(player, cords)
@@ -18,6 +22,23 @@ end
     modal.player = player
     modal.args = args
     modal.moveWithMouse = true;
+    -- if JoypadState.players[player+1] then
+	-- 	modal.prevFocus = JoypadState.players[player+1].focus
+	-- 	setJoypadFocus(player, modal)
+	-- end
+
+end
+
+function VorshimTp.onAnswer(button)
+    if button.internal == "YES" then
+    
+    sendClientCommand(button.parent.player, 'VorshimTp', 'teleportPlayer', button.parent.args)
+    end
+
+
+    -- Ripristina l'evento
+
+    Events.OnPlayerMove.Add(VorshimTp.trigger)
 
 end
 
@@ -72,18 +93,7 @@ function VorshimTp.trigger(player)
     end
 end
 
-function VorshimTp.onAnswer(button)
-    if button.internal == "YES" then
 
-    sendClientCommand(button.parent.player, 'VorshimTp', 'teleportPlayer', button.parent.args)
-    end
-
-
-    -- Ripristina l'evento
-
-    Events.OnPlayerMove.Add(VorshimTp.trigger)
-
-end
 
 -- Aggiungi l'evento
 Events.OnPlayerMove.Add(VorshimTp.trigger)
